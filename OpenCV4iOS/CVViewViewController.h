@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface CVViewViewController : UIViewController
+<CvVideoCameraDelegate>
+{
+    IBOutlet UIImageView *_imageView;
+    CvVideoCamera *_videoCamera;
+}
+
+void RunProcessing(const cv::Mat& src, cv::Mat& dst);
 
 @end

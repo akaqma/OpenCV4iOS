@@ -11,13 +11,22 @@
 		9E156AC816B1AFE400AAF12A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E156AC716B1AFE400AAF12A /* Foundation.framework */; };
 		9E156ACA16B1AFE400AAF12A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E156AC916B1AFE400AAF12A /* CoreGraphics.framework */; };
 		9E156AD016B1AFE400AAF12A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E156ACE16B1AFE400AAF12A /* InfoPlist.strings */; };
-		9E156AD216B1AFE400AAF12A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E156AD116B1AFE400AAF12A /* main.m */; };
-		9E156AD616B1AFE400AAF12A /* CVViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E156AD516B1AFE400AAF12A /* CVViewAppDelegate.m */; };
+		9E156AD216B1AFE400AAF12A /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9E156AD116B1AFE400AAF12A /* main.mm */; };
+		9E156AD616B1AFE400AAF12A /* CVViewAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9E156AD516B1AFE400AAF12A /* CVViewAppDelegate.mm */; };
 		9E156AD816B1AFE400AAF12A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E156AD716B1AFE400AAF12A /* Default.png */; };
 		9E156ADA16B1AFE400AAF12A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E156AD916B1AFE400AAF12A /* Default@2x.png */; };
 		9E156ADC16B1AFE400AAF12A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E156ADB16B1AFE400AAF12A /* Default-568h@2x.png */; };
-		9E156ADF16B1AFE400AAF12A /* CVViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E156ADE16B1AFE400AAF12A /* CVViewViewController.m */; };
+		9E156ADF16B1AFE400AAF12A /* CVViewViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9E156ADE16B1AFE400AAF12A /* CVViewViewController.mm */; };
 		9E156AE216B1AFE400AAF12A /* CVViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E156AE016B1AFE400AAF12A /* CVViewViewController.xib */; };
+		9E156AED16B1B7CE00AAF12A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E156AEC16B1B7CE00AAF12A /* QuartzCore.framework */; };
+		9E156AEF16B1B7D700AAF12A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E156AEE16B1B7D700AAF12A /* CoreVideo.framework */; };
+		9E156AF116B1B7DE00AAF12A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E156AF016B1B7DE00AAF12A /* CoreMedia.framework */; };
+		9E156AF316B1B7E600AAF12A /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E156AF216B1B7E600AAF12A /* CoreImage.framework */; };
+		9E156AF516B1B7EF00AAF12A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E156AF416B1B7EF00AAF12A /* AVFoundation.framework */; };
+		9E156AF716B1B7F700AAF12A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E156AF616B1B7F700AAF12A /* AssetsLibrary.framework */; };
+		9E156AF916B1B7FE00AAF12A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E156AF816B1B7FE00AAF12A /* Accelerate.framework */; };
+		9E156AFB16B1B82200AAF12A /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E156AFA16B1B82200AAF12A /* opencv2.framework */; };
+		9E156B0216B1B90100AAF12A /* CVProcessing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9E156B0116B1B90100AAF12A /* CVProcessing.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,16 +36,25 @@
 		9E156AC916B1AFE400AAF12A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9E156ACD16B1AFE400AAF12A /* OpenCV4iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCV4iOS-Info.plist"; sourceTree = "<group>"; };
 		9E156ACF16B1AFE400AAF12A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9E156AD116B1AFE400AAF12A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E156AD116B1AFE400AAF12A /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		9E156AD316B1AFE400AAF12A /* OpenCV4iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCV4iOS-Prefix.pch"; sourceTree = "<group>"; };
 		9E156AD416B1AFE400AAF12A /* CVViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVViewAppDelegate.h; sourceTree = "<group>"; };
-		9E156AD516B1AFE400AAF12A /* CVViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVViewAppDelegate.m; sourceTree = "<group>"; };
+		9E156AD516B1AFE400AAF12A /* CVViewAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CVViewAppDelegate.mm; sourceTree = "<group>"; };
 		9E156AD716B1AFE400AAF12A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9E156AD916B1AFE400AAF12A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9E156ADB16B1AFE400AAF12A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9E156ADD16B1AFE400AAF12A /* CVViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVViewViewController.h; sourceTree = "<group>"; };
-		9E156ADE16B1AFE400AAF12A /* CVViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVViewViewController.m; sourceTree = "<group>"; };
+		9E156ADE16B1AFE400AAF12A /* CVViewViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CVViewViewController.mm; sourceTree = "<group>"; };
 		9E156AE116B1AFE400AAF12A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CVViewViewController.xib; sourceTree = "<group>"; };
+		9E156AEC16B1B7CE00AAF12A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9E156AEE16B1B7D700AAF12A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		9E156AF016B1B7DE00AAF12A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9E156AF216B1B7E600AAF12A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		9E156AF416B1B7EF00AAF12A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9E156AF616B1B7F700AAF12A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		9E156AF816B1B7FE00AAF12A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		9E156AFA16B1B82200AAF12A /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		9E156B0116B1B90100AAF12A /* CVProcessing.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVProcessing.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +62,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E156AF916B1B7FE00AAF12A /* Accelerate.framework in Frameworks */,
+				9E156AF716B1B7F700AAF12A /* AssetsLibrary.framework in Frameworks */,
+				9E156AF516B1B7EF00AAF12A /* AVFoundation.framework in Frameworks */,
+				9E156AF316B1B7E600AAF12A /* CoreImage.framework in Frameworks */,
+				9E156AF116B1B7DE00AAF12A /* CoreMedia.framework in Frameworks */,
+				9E156AEF16B1B7D700AAF12A /* CoreVideo.framework in Frameworks */,
+				9E156AED16B1B7CE00AAF12A /* QuartzCore.framework in Frameworks */,
 				9E156AC616B1AFE400AAF12A /* UIKit.framework in Frameworks */,
 				9E156AC816B1AFE400AAF12A /* Foundation.framework in Frameworks */,
 				9E156ACA16B1AFE400AAF12A /* CoreGraphics.framework in Frameworks */,
+				9E156AFB16B1B82200AAF12A /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +99,14 @@
 		9E156AC416B1AFE400AAF12A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9E156AFA16B1B82200AAF12A /* opencv2.framework */,
+				9E156AF816B1B7FE00AAF12A /* Accelerate.framework */,
+				9E156AF616B1B7F700AAF12A /* AssetsLibrary.framework */,
+				9E156AF416B1B7EF00AAF12A /* AVFoundation.framework */,
+				9E156AF216B1B7E600AAF12A /* CoreImage.framework */,
+				9E156AF016B1B7DE00AAF12A /* CoreMedia.framework */,
+				9E156AEE16B1B7D700AAF12A /* CoreVideo.framework */,
+				9E156AEC16B1B7CE00AAF12A /* QuartzCore.framework */,
 				9E156AC516B1AFE400AAF12A /* UIKit.framework */,
 				9E156AC716B1AFE400AAF12A /* Foundation.framework */,
 				9E156AC916B1AFE400AAF12A /* CoreGraphics.framework */,
@@ -84,11 +118,12 @@
 			isa = PBXGroup;
 			children = (
 				9E156AD416B1AFE400AAF12A /* CVViewAppDelegate.h */,
-				9E156AD516B1AFE400AAF12A /* CVViewAppDelegate.m */,
+				9E156AD516B1AFE400AAF12A /* CVViewAppDelegate.mm */,
 				9E156ADD16B1AFE400AAF12A /* CVViewViewController.h */,
-				9E156ADE16B1AFE400AAF12A /* CVViewViewController.m */,
+				9E156ADE16B1AFE400AAF12A /* CVViewViewController.mm */,
 				9E156AE016B1AFE400AAF12A /* CVViewViewController.xib */,
 				9E156ACC16B1AFE400AAF12A /* Supporting Files */,
+				9E156B0116B1B90100AAF12A /* CVProcessing.mm */,
 			);
 			path = OpenCV4iOS;
 			sourceTree = "<group>";
@@ -98,7 +133,7 @@
 			children = (
 				9E156ACD16B1AFE400AAF12A /* OpenCV4iOS-Info.plist */,
 				9E156ACE16B1AFE400AAF12A /* InfoPlist.strings */,
-				9E156AD116B1AFE400AAF12A /* main.m */,
+				9E156AD116B1AFE400AAF12A /* main.mm */,
 				9E156AD316B1AFE400AAF12A /* OpenCV4iOS-Prefix.pch */,
 				9E156AD716B1AFE400AAF12A /* Default.png */,
 				9E156AD916B1AFE400AAF12A /* Default@2x.png */,
@@ -174,9 +209,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E156AD216B1AFE400AAF12A /* main.m in Sources */,
-				9E156AD616B1AFE400AAF12A /* CVViewAppDelegate.m in Sources */,
-				9E156ADF16B1AFE400AAF12A /* CVViewViewController.m in Sources */,
+				9E156AD216B1AFE400AAF12A /* main.mm in Sources */,
+				9E156AD616B1AFE400AAF12A /* CVViewAppDelegate.mm in Sources */,
+				9E156ADF16B1AFE400AAF12A /* CVViewViewController.mm in Sources */,
+				9E156B0216B1B90100AAF12A /* CVProcessing.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,14 +242,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -228,6 +264,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -235,14 +272,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -251,12 +288,17 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
 		9E156AE616B1AFE400AAF12A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCV4iOS/OpenCV4iOS-Prefix.pch";
 				INFOPLIST_FILE = "OpenCV4iOS/OpenCV4iOS-Info.plist";
@@ -268,6 +310,10 @@
 		9E156AE716B1AFE400AAF12A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCV4iOS/OpenCV4iOS-Prefix.pch";
 				INFOPLIST_FILE = "OpenCV4iOS/OpenCV4iOS-Info.plist";
@@ -295,6 +341,7 @@
 				9E156AE716B1AFE400AAF12A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
